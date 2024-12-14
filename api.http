@@ -1,3 +1,13 @@
+### user login
+POST http://localhost:8000/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "phone_number": "09378239592",
+  "password": "amir123"
+}
+
 ### get logs list
 GET http://localhost:8001/api/logs
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzM0MTk4MTI2LCJleHAiOjE3MzQyMDE3MjYsIm5iZiI6MTczNDE5ODEyNiwianRpIjoidjJIYVNKamVGSEpnYmtPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.s-Tzl9QVZZSwxVcXrPrt5yAlEfmAjomy4vLlWN0LSDs
