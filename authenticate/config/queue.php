@@ -82,12 +82,12 @@ return [
                     'password' => env('RABBITMQ_PASSWORD', 'guest'),
                     'vhost' => env('RABBITMQ_VHOST', '/'),
                 ],
-                'options' => [
-                    'exchange' => [
-                        'name' => 'user-login-event',
-                        'type' => 'topic',
-                        'durable' => true,
-                    ],
+            ],
+            'options' => [
+                'exchange' => [
+                    'name' => 'user-login-event',
+                    'type' => 'topic',
+                    'durable' => true,
                 ],
             ],
         ],
